@@ -13,5 +13,6 @@ emitter.on('Logging', (e) => {
 // Raise an event
 emitter.emit('message logged', {id: 1, url:'http://'});
 
+
 // Raise logging
 emitter.emit('Logging', {data: 'logging message'});
